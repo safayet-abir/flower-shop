@@ -71,7 +71,6 @@ featured part start
     color: #272727;
     text-align: center;
 }
-
 .feat__des{
     font-size: 18px;
     font-weight: 400;
@@ -80,28 +79,23 @@ featured part start
     margin: 25px auto 48px;
     line-height: 30px;
     width: 585px;
-
 }
-
 .feat_item{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-
 .one_item{
     padding: 110px 78px 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-
 .two_item{
     padding: 115px 78px 50px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15)
 }
-
 .three_item{
     padding:77px 78px 0;
     border-radius: 300px 300px 0px 0px;
@@ -144,3 +138,48 @@ nav part end
 /* ===========
 nav part end
 =========== */
+.deals{
+    padding: 100px 0;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+}
+.deal{
+    font-family: 'Lato', sans-serif;
+    padding: 0 430px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 185px;
+}
+.deal_tit{
+    font-family: 'Lato', sans-serif;
+    font-size:40px;
+    font-weight: 800;
+    color: #272727;
+}
+.deal_desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 25px 0 50px;
+}
+.clr{
+    color:#167e04e0 ;
+}
+.bun a{
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #661b0fe0;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.instagram{
+    margin-bottom: 128px;
+}
+.instagram_profile{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
